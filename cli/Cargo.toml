@@ -1,0 +1,11 @@
+[package]
+name = "keyaudit-cli"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "keyaudit"
+path = "src/main.rs"
+
+[dependencies]
+keyaudit-core = { path = "../core" }
